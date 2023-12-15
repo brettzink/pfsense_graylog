@@ -9,7 +9,7 @@
       "source_field": "message",
       "target_field": "pfsense_log_data",
       "extractor_config": {
-        "regex_value": "^filterlog: ([^,]+,.+)"
+        "regex_value": "^filterlog\[\d+\]: ([^,]+,.+)"
       },
       "condition_type": "string",
       "condition_value": "filterlog: "
